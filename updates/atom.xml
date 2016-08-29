@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>TinyLionRoars</title>
-	<link href="http://TinyLionRoars.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://TinyLionRoars.github.io/blog"/>
+	<link href="http://TinyLionRoars.github.io/updates/atom.xml" rel="self"/>
+	<link href="http://TinyLionRoars.github.io/updates"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://Tinylionroars.github.io/blog</id>
+	<id>http://Tinylionroars.github.io/updates/id>
 	<author>
 		<name>Phoenix Sweeney</name>
 		<email>tinylionroars@gmail.com</email>
