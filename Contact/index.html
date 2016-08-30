@@ -3,6 +3,28 @@ layout: default
 title: Let it out.
 ---
 	<h1>Roar at TinyLion</h1>
+	
+	<?php
+    		$name = $_POST['name'];
+    		$email = $_POST['email'];
+    		$message = $_POST['message'];
+    		$from = 'From: TinyLionRoars Github'; 
+		$to = 'tinylionroars@gmail.com.com'; 
+		$subject = 'Contact';
+		
+		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+	?>
+	
+	<?php
+	if ($_POST['submit']) {
+    		if (mail ($to, $subject, $body, $from)) { 
+			echo '<p>I hear ya-er, I will soon. Message sent!</p>';
+    		} else { 
+        		echo '<p>Sorry, didn't catch that. Could you try resending?</p>'; 
+    		}
+	}
+	?>
+
 
 	<form method="post" action="index.php">
 
