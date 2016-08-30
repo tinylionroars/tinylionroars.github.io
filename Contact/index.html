@@ -1,14 +1,27 @@
----
-layout: default
-title: Let it out.
----
-	<h1>Roar at TinyLion</h1>
-<?php
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Roar at TinyLion</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+	        		<li><a href="/About">About</a></a></li>
+	        		<li><a href="/Updates">Updates</a></li>
+	        		<li><a href="/Contact">Contact</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			<?php
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
     $from = 'From: Tinylionroars Site'; 
-    $to = 'tinykionroars@gmail.com'; 
+    $to = 'tinylionroars@gmail.com'; 
     $subject = 'Hello';
 			
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
@@ -30,3 +43,16 @@ title: Let it out.
 		<br> <input id="submit" name="submit" type="submit" value="Submit">
 	
 	</form>
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:tinylionroars@gmail.com">TinyLionRoars@gmail.com</a></li>
+	        		<li><a href="http://Instagram.com/tinylionroars">Instagram</a></li>
+	        		<li><a href="http://Vimeo.com/tinylionroars">Vimeo</a></li>
+	        		<li><a href="http://Soundcloud.com/tinylionroars">Soundcloud</a></li>
+	        		<li><a href="http://CargoCollective.com/tinylionroars">CargoCollective</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
