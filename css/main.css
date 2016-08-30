@@ -41,3 +41,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
