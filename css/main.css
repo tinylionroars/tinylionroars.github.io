@@ -63,3 +63,14 @@ input:focus, textarea:focus {
     display:block;
     width:576px;
 }
+#submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
