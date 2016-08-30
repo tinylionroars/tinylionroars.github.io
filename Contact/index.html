@@ -13,12 +13,10 @@ title: Let it out.
 		$subject = 'Contact';
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
-	?>
-	
-	<?php
+		
 	if ($_POST['submit']) {
     		if (mail ($to, $subject, $body, $from)) { 
-			echo '<p>I hear ya-er, I will soon. Message sent!</p>';
+			echo '<p>I hear ya. Message sent!</p>';
     		} else { 
         		echo '<p>Sorry, didn't catch that. Could you try resending?</p>'; 
     		}
