@@ -101,3 +101,7 @@ input:focus, textarea:focus {
 <script src="/js/jquery.bxslider.min.js"></script>
 <!-- bxSlider CSS file -->
 <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+$('.bxslider').bxSlider({
+  mode: 'fade',
+  captions: true
+});
