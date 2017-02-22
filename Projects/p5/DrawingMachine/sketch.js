@@ -3,7 +3,7 @@ var y = 0;
 
 
 function setup() {
-  createCanvas(800, 600)
+  createCanvas(1000, 1050)
   background(0)
 }
 
@@ -29,7 +29,7 @@ function draw() {
     y = 0;
   }
   
-   fill (mouseY-255, mouseX/width*255, mouseY/height*300);
+   fill (mouseY/height, mouseX/width*255, mouseY/height*300);
   
   if (mouseIsPressed === true) {
     noFill();
