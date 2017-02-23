@@ -29,7 +29,7 @@ function draw() {
     y = 0;
   }
   
-   fill (mouseY/height*150, mouseX/width*255, mouseY/height*300);
+   fill (height/mouseY*300, mouseX/width*255, mouseY/height*300);
   
   if (mouseIsPressed === true) {
     noFill();
@@ -42,7 +42,7 @@ function draw() {
   
 function keyPressed() {
   
-  fill (mouseY-255, mouseX/width*255, mouseY/height*300);
+  fill (height/mouseY*300, mouseX/width*255, mouseY/height*300);
   rect(x, y, random(100), random(100));
     
   x = x+random(-75, 75);
