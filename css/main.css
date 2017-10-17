@@ -51,6 +51,7 @@ ul.posts li {
 div.text {
 	background: rgba(76, 175, 80, .2) url("aconversationlarysa.jpg") repeat-y repeat-x top center;
 	background-repeat: repeat-y;
+	background-repeat: repeat-x;
 	background-origin: content-box;
 	width: 90%;
 }
