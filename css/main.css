@@ -61,7 +61,7 @@ div.sketch {
 }
 
 img:hover {
-    opacity: 0.7;
+    opacity: 0.86;
     filter: alpha(opacity=86); /* For IE8 and earlier */
 	-ms-transform: scale(1.5, 1.5); /* IE 9 */
     -webkit-transform: scale(1.5, 1.5); /* Safari */
