@@ -46,5 +46,6 @@ ul.posts li {
 
 div.text {
 	background: #d9b8ff url("aconversationlarysa.jpg") no-repeat fixed center center;
-	background-size: cover;
+	background-repeat: repeat-y;
+	width: 75%
 }
