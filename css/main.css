@@ -54,3 +54,8 @@ div.text {
 	background-origin: content-box;
 	width: 90%;
 }
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
