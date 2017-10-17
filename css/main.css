@@ -48,7 +48,7 @@ ul.posts li {
 }
 
 div.text {
-	background: #d9b8ff url("aconversationlarysa.jpg") top center;
+	background: rgba(76, 175, 80, 0.8) url("aconversationlarysa.jpg") top center;
 	background-repeat: repeat-y;
 	background-repeat: repeat-x;
 	background-origin: content-box;
