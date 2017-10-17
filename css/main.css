@@ -48,4 +48,5 @@ div.text {
 	background: #d9b8ff url("aconversationlarysa.jpg") no-repeat fixed center center;
 	background-repeat: repeat-y;
 	width: 90%
+	background-size: cover;
 }
