@@ -54,8 +54,6 @@ div.text {
 	background-repeat: repeat-x;
 	background-origin: content-box;
 	width: 90%;
-	opacity: 0.86;
-    filter: alpha(opacity=86); /* For IE8 and earlier */
 }
 
 div.sketch {
