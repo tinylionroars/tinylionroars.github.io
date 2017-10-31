@@ -5,7 +5,18 @@
 	<meta name="keywords" content="ar, performance, theatre, solo, unity, vuforia, trans, audio, live">
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
-	
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="/resources/demos/style.css">
+  	<style>
+  		#draggable, #set div { width: 90px; height: 90px; padding: 0.5em; float: left; margin: 0 10px 10px 0; }
+  		#draggable { margin-bottom:20px; }
+  		#set { clear:both; float:left; width: 368px; height: 120px; }
+  		p { clear:both; margin:0; padding:1em 0; }
+  	</style>
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -17,25 +28,32 @@
 				<li><a href="http://www.tinylionroars.tumblr.com/cv">CV</a></li>
 		</ul>
 	</nav>
-	<div class="container">
-		<!--concept video-->
-		<iframe src="https://player.vimeo.com/video/201718002?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		
-		<!--Nest pre empty photo-->
-		<img src="/Projects/FormMe/FormMeNestPre.jpg" width=45% height=auto>
-		
-		<!--debut video-->
-		<iframe src="https://player.vimeo.com/video/203058108?portrait=0" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		
-		<!--Concept pic first performance-->
-		<img src="/Projects/FormMe/FormMeConcept1.png" width=45% height=auto>
-		
-		<!--promo video-->
-		<iframe src="https://player.vimeo.com/video/203869840?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		
-		<!--audio-->
-		<iframe width="45%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302301203&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-	</div><!-- /.container -->
+	<div id="set">
+		<div class="ui-widget-content">
+			<!--concept video-->
+			<iframe src="https://player.vimeo.com/video/201718002?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<div class="ui-widget-content">
+			<!--Nest pre empty photo-->
+			<img src="/Projects/FormMe/FormMeNestPre.jpg" width=45% height=auto>
+		</div>
+		<div class="ui-widget-content">
+			<!--debut video-->
+			<iframe src="https://player.vimeo.com/video/203058108?portrait=0" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<div class="ui-widget-content">
+			<!--Concept pic first performance-->
+			<img src="/Projects/FormMe/FormMeConcept1.png" width=45% height=auto>
+		</div>
+		<div class="ui-widget-content">
+			<!--promo video-->
+			<iframe src="https://player.vimeo.com/video/203869840?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<div class="ui-widget-content">
+			<!--audio-->
+			<iframe width="45%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302301203&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+		</div>
+	</div><!-- /.set -->
  	<footer>
 	    			<ul>
 					<li><a href="http://Instagram.com/tinylionroars">Instagram</a></li>
