@@ -11,6 +11,7 @@ my website
   Accessibility!<br>
   Fix draggable (background, default layout, less trash(sticky?), opacity)<br>
   Autoplay & ask to use (as alerts)<br>
+  Ask to use for as many diff types of data available to show what can & is tracked ayyyyyyyyyyy<br>
   Sketches as background<br>
   Save user settings?<br>
   Default layout<br>
