@@ -17,13 +17,16 @@ my website
   Use random background & determine color from background?<br>
   Fix how js appears on screen (below footer)<br>
   Make it lightweight?<br>
+  HOMING<br>
   
- <br><br><br><br><br>
- <b>Notes</b><br><br>
- parseInt<br>
- switch statements<br>
- default with switch?<br>
- 
+<br><br><br><br><br>
+<b>Notes</b><br><br>
+  parseInt<br>
+  switch statements<br>
+  default with switch?<br>
+  css selectors js general vs $<br>
+  $ blur<br>
+  
   
   
   
