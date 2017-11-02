@@ -19,6 +19,7 @@ my website
   Fix how js appears on screen (below footer)<br>
   Make it lightweight?<br>
   HOMING<br>
+  Click to move or disappear or show(link to text input thing)<br>
   
 <br><br><br><br><br>
 <b>Notes</b><br><br>
@@ -27,6 +28,8 @@ my website
   default with switch?<br>
   css selectors js general vs $<br>
   $ blur<br>
+  $("class")).click<br>
+  
   
   
   
