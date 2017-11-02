@@ -16,5 +16,7 @@ my website
   Default layout<br>
   Use random background & determine color from background?<br>
   Fix how js appears on screen (below footer)<br>
+  Make it lightweight?<br>
+  
   
   
