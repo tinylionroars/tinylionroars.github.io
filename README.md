@@ -5,7 +5,7 @@ my website
   Forms to add tags (decay factor? show tags on screen(with button toggle)?<br>
   Html button toggles for content & backgrounds<br>
   Search system (clean, narrative, user)<br>
-  Create a page with input boxes that people can enter & send to movable text boxes in random place with random background with random alpha with decay factor (changing alpha, when alpha <= 0, delete)<br>
+  Create a page with input boxes that people can enter & send to movable text boxes in random place with random background with random alpha with decay factor (changing alpha, when alpha <= 0, delete--create counter for # of visits to page?)<br>
   Fix text box things (opacity & repeat)<br>
   Toggle text box background on/off<br>
   Accessibility!<br>
