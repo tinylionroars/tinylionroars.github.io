@@ -1,7 +1,7 @@
 # tinylionroars.github.io
 my website
 
-<b> Things to do: <b> <br><br>
+<b> Things to do: </b> <br><br>
   Forms to add tags (decay factor? show tags on screen(with button toggle)?<br>
   Html button toggles for content & backgrounds<br>
   Search system (clean, narrative, user)<br>
