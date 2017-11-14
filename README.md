@@ -14,8 +14,9 @@ super unstyled html buttons that toggle the visibility of specific elements/back
 giving some pages things like text boxes that appear on the page as a p element that fade out with global page refreshes<br>
 asking permission & giving content warnings with js alerts<br>
 
-<b> Things to do: </b> <br><br>
-  Forms to add tags (decay factor? show tags on screen(with button toggle)?<br>
+<br><br><b> Things to do: </b> <br><br>
+  Add more c o n t e n t<br>
+  Forms to tags (decay factor? show tags on screen(with button toggle)?<br>
   Html button toggles for content & backgrounds<br>
   Search system (clean, narrative, user)<br>
   Create a page with input boxes that people can enter & send to movable text boxes in random place with random background with random alpha with decay factor (changing alpha, when alpha <= 0, delete--create counter for # of visits to page?)<br>
