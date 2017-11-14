@@ -1,5 +1,18 @@
 # tinylionroars.github.io
-my website
+my website<br><br>
+<b>Concept</b><br><br>
+My portfolio will be a space designed for user control that is meant to seem almost like a living entity.<br>
+The flow of the site will mostly be a tagging system, with four different types of tags:<br>
+type (augmented reality, audio, installation, etc),<br>
+concepts/themes (queerness, bodies, mental illness, etc),<br>
+narative (building nonlinear stories by putting linked pages under a tag with the title),<br>
+user added (users can add tags to pages)<br>
+<br>
+Other elements that will give the user more autonomy are:<br>
+draggable elements, allowing the user the ability to determine the page layout<br>
+super unstyled html buttons that toggle the visibility of specific elements/backrgound<br>
+giving some pages things like text boxes that appear on the page as a p element that fade out with global page refreshes<br>
+asking permission & giving content warnings with js alerts<br>
 
 <b> Things to do: </b> <br><br>
   Forms to add tags (decay factor? show tags on screen(with button toggle)?<br>
