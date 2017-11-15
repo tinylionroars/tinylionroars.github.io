@@ -49,7 +49,7 @@ ul.posts li {
 }
 
 div.text {
-	background: url("aconversationlarysa.jpg") top center;
+	background: url("aconversationlarysa.jpg");
 	background-repeat: repeat-y;
 	background-repeat: repeat-x;
 	background-origin: content-box;
