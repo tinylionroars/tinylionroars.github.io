@@ -2,6 +2,7 @@
 my website<br><br>
 <b>Concept</b><br><br>
 My portfolio will be a space designed for user control that is meant to seem almost like a living entity.<br>
+<br>
 The flow of the site will mostly be a tagging system, with four different types of tags:<br>
 type (augmented reality, audio, installation, etc),<br>
 concepts/themes (queerness, bodies, mental illness, etc),<br>
