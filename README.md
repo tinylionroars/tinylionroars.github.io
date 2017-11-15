@@ -13,6 +13,8 @@ draggable elements, allowing the user the ability to determine the page layout<b
 super unstyled html buttons that toggle the visibility of specific elements/backrgound<br>
 giving some pages things like text boxes that appear on the page as a p element that fade out with global page refreshes<br>
 asking permission & giving content warnings with js alerts<br>
+<br>
+The other core focuses in this pass are adding more pages/projects & making the site more accessible<br>
 
 <br><br><b> Things to do: </b> <br><br>
   Add more c o n t e n t<br>
