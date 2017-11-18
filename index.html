@@ -4,6 +4,20 @@
 			<title>TinyLionRoars</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+			 <script type="text/javascript">
+        		// checks to see if there's localstirage supported in the browser
+        		function checkStore() {
+            			if (typeof (Storage) !== "undefined") {
+                		// Code for localStorage/sessionStorage.
+                		alert("I can save stuff!");
+            			}
+            			else {
+                			// Sorry! No Web Storage support..
+                			alert("sorry, this browser doesn't save anything");
+            			}
+        		}
+        		// stores a value with an associated name forever
 		</head>
 		<body>
 			<nav>
