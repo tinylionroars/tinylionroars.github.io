@@ -19,18 +19,14 @@
   	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script>
-	$( function() {
-    $( "#draggable" ).draggable({
-      opacity: 0.7,
-      cursor: "move",
-      cursorAt: { top: -12, left: -20 },
-      helper: function( event ) {
-        return $( "<div class='ui-widget-header'>I'm a custom helper</div>" );
-      }
-    });
-    $( "#set div" ).draggable({ stack: "#set div" });
-  } );
-  </script>
+		$( function() {
+    		$( "#draggable" ).draggable({
+      			opacity: 0.7,
+      			cursor: "move",
+      			cursorAt: { top: -12, left: -20 },
+    			$( "#set div" ).draggable({ stack: "#set div" });
+  		} );
+  	</script>
 </head>
 
 <body>
@@ -80,6 +76,6 @@
 					<li><a href="http://tinylionprototypes.tumblr.com/art">Process Blog</a></li>
 					<li><a href="http://patreon.com/tinylionroars">Patreon</a></li>
 				</ul>
-		</footer>
+	</footer>
 </body>
 </html>
