@@ -16,17 +16,6 @@
   		#set { clear:both; float:left; width: 368px; height: 120px; }
   		p { clear:both; margin:0; padding:1em 0; }
   	</style>
-  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script>
-		$( function() {
-    		$( "#draggable" ).draggable({
-      			opacity: 0.7,
-      			cursor: "move",
-      			cursorAt: { top: -12, left: -20 },
-    			$( "#set div" ).draggable({ stack: "#set div" });
-  		} );
-  	</script>
 </head>
 
 <body>
@@ -41,6 +30,17 @@
 	<button type="button" onclick='document.getElementById("set").style.display = "none"'>Hide content</button>
 	<button type="button" onclick='document.getElementById("set").style.display = "block"'>Show content</button>
 	<div id="set" class="container">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$( function() {
+    		$( "#draggable" ).draggable({
+      			opacity: 0.7,
+      			cursor: "move",
+      			cursorAt: { top: -12, left: -20 },
+    			$( "#set div" ).draggable({ stack: "#set div" });
+  		} );
+  	</script>
 		<div class="ui-widget-content">
 			<!--concept video-->
 			<iframe src="https://player.vimeo.com/video/201718002?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
