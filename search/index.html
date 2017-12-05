@@ -43,8 +43,8 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
 		var currentVal;
 		var oldVal = currentVal;
 		var currentVal = x.value;
-	    $( "div.container" ).find( "div."+currentVal ).style.display = "none";
-	    $( "div.container" ).find( "div."+oldVal ).style.display = "block";
+	    $( "div.container" ).find( "div." + currentVal ).style.display = "none";
+	    $( "div.container" ).find( "div." + oldVal ).style.display = "block";
     }
   </script>
 </head>
@@ -64,7 +64,7 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
   <button type="button" onclick="searchFor()">Search</button>
   
   
-	<div id="set" class="container">
+	<div class="container" id="set">
 		<div class="ui-widget-content test">
 			<!--concept video-->
 			<iframe src="https://player.vimeo.com/video/201718002?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
