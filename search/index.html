@@ -36,6 +36,12 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
     });
     $( "#set div" ).draggable({ stack: "#set div" });
   } );
+		
+    function searchFor() {
+      //add code that makes shit disappear  
+      var x = document.getElementById("mySearch").value;
+      document.getElementById(x).style.display = "block";
+    }
   </script>
 </head>
 
@@ -53,13 +59,7 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
   <input type="search" id="mySearch" placeholder="Explore with intent">
   <button type="button" onclick="searchFor()">Search</button>
   
-  <script>
-    function searchFor() {
-      //add code that makes shit disappear  
-      var x = document.getElementById("mySearch").value;
-      document.getElementById(x).style.display = "block";
-    }
-  </script>
+  
 	<div id="set" class="container">
 		<div class="ui-widget-content">
 			<!--concept video-->
