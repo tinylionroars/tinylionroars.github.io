@@ -39,8 +39,12 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
 		
     function searchFor() {
       //add code that makes shit disappear  
-      var x = document.getElementById("mySearch").value;
-      document.getElementById(x).style.display = "block";
+      var x = document.getElementById("mySearch");
+		var currentVal;
+		var oldVal = currentVal;
+		var currentVal = x.value;
+      document.getElementById(currentVal).style.display = "block";
+		document.getElementById(oldVal).style.display = "none";
     }
   </script>
 </head>
@@ -54,8 +58,8 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
 				<li><a href="http://www.tinylionroars.tumblr.com/cv">CV</a></li>
 		</ul>
 	</nav>
-	<button type="button" onclick='document.getElementByClass("ui-widget-content").style.display = "none"'>Hide content</button>
-	<button type="button" onclick='document.getElementById("ui-widget-content").style.display = "block"'>Show content</button>
+	<button type="button" onclick='document.getElementById("set").style.display = "none"'>Hide content</button>
+	<button type="button" onclick='document.getElementById("set").style.display = "block"'>Show content</button>
   <input type="search" id="mySearch" placeholder="Explore with intent">
   <button type="button" onclick="searchFor()">Search</button>
   
