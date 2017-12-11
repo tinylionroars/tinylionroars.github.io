@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--js from this site http://jqueryui.com/draggable/#visual-feedback-->
+<html>
+<head>
+	<title>Form Me</title>
+	<meta name="keywords" content="ar, performance, theatre, solo, unity, vuforia, trans, audio, live">
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="/resources/demos/style.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+function pageLoadCount() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.pageCount) {
+            localStorage.pageCount = Number(localStorage.pageCount)+1;
+        } else {
+            localStorage.pageCount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have loaded page" + localStorage.pageCount + " time(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
+</head>
+
+<body onload="pageLoadCount()">
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="http://tinylionprototypes.tumblr.com/">Process</a></li>
+	        		<li><a href="http://www.tinylionroars.tumblr.com/tagged/updates">Updates</a></li>
+				<li><a href="http://www.tinylionroars.tumblr.com/cv">CV</a></li>
+		</ul>
+	</nav>
+	
+  
+  <div id="result"></div>
+  
+  
+ 	<footer>
+	    			<ul>
+					<li><a href="http://Instagram.com/tinylionroars">Instagram</a></li>
+	        			<li><a href="http://Vimeo.com/tinylionroars">Vimeo</a></li>
+	        			<li><a href="http://Soundcloud.com/tinylionroars">Soundcloud</a></li>
+	        			<li><a href="http://CargoCollective.com/tinylionroars">CargoCollective</a></li>
+					<li><a href="http://tinylionroars.tumblr.com/art">Main Blog</a></li>
+					<li><a href="http://tinylionprototypes.tumblr.com/art">Process Blog</a></li>
+					<li><a href="http://patreon.com/tinylionroars">Patreon</a></li>
+				</ul>
+		</footer>
+</body>
+</html>
