@@ -13,19 +13,34 @@
   	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script>
-function pageLoadCount() {
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.pageCount) {
-            localStorage.pageCount = Number(localStorage.pageCount)+1;
-        } else {
-            localStorage.pageCount = 1;
-        }
-        document.getElementById("result").innerHTML = "You have loaded page " + localStorage.pageCount + " time(s).";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }
-}
-</script>
+		function pageLoadCount() {
+			if(typeof(Storage) !== "undefined") {
+				if (localStorage.pageCount) {
+					localStorage.pageCount = Number(localStorage.pageCount)+1;
+				} else {
+					localStorage.pageCount = 1;
+				}
+				document.getElementById("result").innerHTML = "You have loaded page " + localStorage.pageCount + " time(s).";
+			} else {
+				document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+			}
+		}
+	</script>
+	<script>
+		function addContent() {
+			var user1 = document.createElement("P");
+			//var user2 = document.createElement("P");
+			//var user3 = document.createElement("P");
+			//user3.innerHTML = user2.innerHTML;
+			//user2.innerHTML = user1.innerHTML;
+			user1.innerHTML = document.getElementById("userAdded").value;
+			$("p").after(user1);
+		}
+	</script>
+	<script>
+		function removeContent() {
+		}
+	</script>
 </head>
 
 <body onload="pageLoadCount()">
@@ -38,8 +53,10 @@ function pageLoadCount() {
 		</ul>
 	</nav>
 	
-  
-  <p id="result"></p>
+	<input type="search" id="userAdded" placeholder="Alter this space">
+	<button type="button" onclick="addContent()">Let it be a part</button>
+	<button type="button" onclick="removeContent()">Take it away</button>
+	<p id="result"></p>
   
   
  	<footer>
