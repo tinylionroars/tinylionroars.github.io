@@ -52,7 +52,33 @@ overlay of tws that needs to be cleared to play content
 	<button type="button" onclick='document.getElementById("set").style.display = "block"'>Show content</button>
 	<script src="/jsLibraries/processing-3.1.1.min.js"></script>
 	<!--<canvas data-processing-sources = "MotionShadows/MotionShadows.pde"></canvas>-->
-	<canvas data-processing-sources = "example_01_01_stroke_fill/example_01_01_stroke_fill.pde"></canvas>
+	<!--<canvas data-processing-sources = "example_01_01_stroke_fill/example_01_01_stroke_fill.pde"></canvas>-->
+	<script type="text/processing">
+      void setup() {
+        size(400,200);
+        textAlign(CENTER, CENTER);
+        background(0,0,100);
+        fill(255,230,75);
+        text("Processing.js", width/2, height/2);
+        noLoop();
+      }
+
+      void draw() {
+      }
+
+      void mouseMoved() {
+        stroke(255);
+        point(mouseX, mouseY);
+        redraw();
+      }
+
+      void mousePressed() {
+        line(0,mouseY,width,mouseY);
+        line(mouseX,0,mouseX,height);
+        println(mouseX, mouseY);
+      }
+    </script>
+    <canvas></canvas>
  	<footer>
 	    			<ul>
 					<li><a href="http://Instagram.com/tinylionroars">Instagram</a></li>
