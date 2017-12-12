@@ -18,7 +18,7 @@ import org.firmata.*;
 
 Capture video;
 
-int maxPast = 100; //Total # of recorded images
+int maxPast = 10; //Total # of recorded images
 int maxMot = 20; //Total number of frames to be saved at one time
 int pastIndex = 0; // Initial image to be recorded
 
