@@ -29,10 +29,14 @@
 	<script>
 		function addContent() {
 			var user1 = document.createElement("P");
-			//var user2 = document.createElement("P");
-			//var user3 = document.createElement("P");
-			//user3.innerHTML = user2.innerHTML;
-			//user2.innerHTML = user1.innerHTML;
+			/*
+			var user2 = document.createElement("P");
+			var user3 = document.createElement("P");
+			if (user1.length > 0) {
+			}
+			user3.innerHTML = user2.innerHTML;
+			user2.innerHTML = ;
+			*/
 			user1.innerHTML = "";
 			user1.innerHTML = document.getElementById("userAdded").value;
 			$("p").after(user1);
