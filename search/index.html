@@ -43,8 +43,8 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
 	var currentVal;
 	var oldVal = currentVal;
 	var currentVal = x.value;
-	document.getElementsByClass(currentVal).style.display = "none";
-	document.getElementsByClass(oldVal).style.display = "block";
+	document.getElementsByClassName(currentVal).style.display = "none";
+	document.getElementsByClassName(oldVal).style.display = "block";
 	//$( "div.container" ).find( currentVal).css({"display": "none"};
 	//$( "div.container" ).find(oldVal).style.display = "block";
     }
@@ -60,8 +60,8 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
 				<li><a href="http://www.tinylionroars.tumblr.com/cv">CV</a></li>
 		</ul>
 	</nav>
-	<button type="button" onclick='document.getElementsByClass("old").style.display = "none"'>Hide content</button>
-	<button type="button" onclick='document.getElementsByClass("old").style.display = "block"'>Show content</button>
+	<button type="button" onclick='document.getElementsByClassName("old").style.display = "none"'>Hide content</button>
+	<button type="button" onclick='document.getElementsByClassName("old").style.display = "block"'>Show content</button>
   	<input type="search" id="mySearch" placeholder="Explore">
   	<button type="button" onclick="searchFor()">Search</button>
 	
