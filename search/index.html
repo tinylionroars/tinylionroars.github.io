@@ -40,11 +40,13 @@ Add input to add IDs to elements? Put on each individual page & send ids to cont
     function searchFor() {
       //add code that makes shit disappear  
       var x = document.getElementById("mySearch");
-		var currentVal;
-		var oldVal = currentVal;
-		var currentVal = x.value;
-	    $( "div.container" ).find( "div.ui-widget-content").css({"display": "none"};
-	    $( "div.container" ).find( "div." + oldVal ).style.display = "block";
+	var currentVal;
+	var oldVal = currentVal;
+	var currentVal = x.value;
+	document.getElementsByClass(currentVal).style.display = "none";
+	document.getElementsByClass(oldVal).style.display = "block";
+	//$( "div.container" ).find( currentVal).css({"display": "none"};
+	//$( "div.container" ).find(oldVal).style.display = "block";
     }
   </script>
 </head>
