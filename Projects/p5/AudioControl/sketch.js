@@ -1,4 +1,4 @@
-//button callback example
+
 var hover = false;
 
 function preload() {
@@ -172,3 +172,4 @@ function buttonAl(callbackData){
 		}
 	}
 }
+
