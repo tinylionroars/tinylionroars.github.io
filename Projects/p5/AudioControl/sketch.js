@@ -34,7 +34,7 @@ function draw(){
 	rect(070,080,100,100); //RapeCulture
 	rect(370,360,100,100); //Remember
 	rect(0.0,430,100,100); //Transphobia
-	rect(470,210,200,200); //All
+	//rect(470,210,200,200); //All
 	
 	//console.log(mouseX);
 	//console.log(mouseY)
@@ -71,7 +71,7 @@ function mousePressed(){
 	
 	rectButton(0.0,430,100,100, buttonTr);
 	
-	rectButton(470,210,200,200, buttonAl);
+	//rectButton(470,210,200,200, buttonAl);
 }
 
 function rectButton(x,y,w,h, callback){
@@ -87,7 +87,6 @@ function rectButton(x,y,w,h, callback){
 }
 
 function buttonEr(callbackData){
-	//do things when the button gets pressed.......
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
@@ -102,7 +101,6 @@ function buttonEr(callbackData){
 }
 
 function buttonOr(callbackData){
-	//do things when the button gets pressed.......
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
@@ -117,7 +115,6 @@ function buttonOr(callbackData){
 }
 
 function buttonRa(callbackData){
-	//do things when the button gets pressed.......
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
@@ -132,7 +129,6 @@ function buttonRa(callbackData){
 }
 
 function buttonRe(callbackData){
-	//do things when the button gets pressed.......
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
@@ -147,7 +143,6 @@ function buttonRe(callbackData){
 }
 
 function buttonTr(callbackData){
-	//do things when the button gets pressed.......
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
@@ -161,8 +156,7 @@ function buttonTr(callbackData){
 	}
 }
 
-function buttonAl(callbackData){
-	//do things when the button gets pressed.......
+/*function buttonAl(callbackData){
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
@@ -172,7 +166,8 @@ function buttonAl(callbackData){
 			rememberHowItHurt.setVolume(0.5);
 			transphobia.setVolume(0.5);
 		}
-	}
+	}*/
 }
+
 
 
