@@ -41,6 +41,7 @@ function draw(){
 }
 
 function mousePressed(){
+
 	erasure.setVolume(0.0);
   erasure.playMode('restart');
   erasure.play();
@@ -61,7 +62,7 @@ function mousePressed(){
   transphobia.playMode('restart');
   transphobia.play();
 	
-	rectButton(600,075,100,100, buttonEr); //run our check for the button below
+	rectButton(600,075,100,100, buttonEr);
 	
 	rectButton(680,575,100,150, buttonOr);
 	
@@ -71,7 +72,7 @@ function mousePressed(){
 	
 	rectButton(0.0,430,100,100, buttonTr);
 	
-	rectButton(470,210,200,200, buttonAl);
+	//rectButton(470,210,200,200, buttonAl);
 }
 
 function rectButton(x,y,w,h, callback){
@@ -156,18 +157,19 @@ function buttonTr(callbackData){
 	}
 }
 
-function buttonAl(callbackData){
+/*function buttonAl(callbackData){
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
-			/*erasure.setVolume(0.5);
+			erasure.setVolume(0.5);
 			orlando.setVolume(0.5);
 			rapeCulture.setVolume(0.5);
 			rememberHowItHurt.setVolume(0.5);
-			transphobia.setVolume(0.5);*/
+			transphobia.setVolume(0.5);
 		}
-	}
+	}*/
 }
+
 
 
 
