@@ -42,7 +42,7 @@ function draw(){
 
 function mousePressed(){
 
-	erasure.setVolume(0.0);
+/*erasure.setVolume(0.0);
   erasure.playMode('restart');
   erasure.play();
   
@@ -60,7 +60,7 @@ function mousePressed(){
   
   transphobia.setVolume(0.0);
   transphobia.playMode('restart');
-  transphobia.play();
+  transphobia.play();*/
 	
 	rectButton(600,075,100,100, buttonEr);
 	
@@ -167,6 +167,7 @@ function buttonTr(callbackData){
 		}
 	}*/
 }
+
 
 
 
