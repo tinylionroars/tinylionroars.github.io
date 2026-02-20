@@ -82,8 +82,6 @@ function rectButton(x,y,w,h, callback){
 
 	if(hit){ //if its inside fire the callback
 		callback(hit);
-	} else {
-		
 	}
 }
 
@@ -169,6 +167,7 @@ function buttonTr(callbackData){
 		}
 	}*/
 }
+
 
 
 
