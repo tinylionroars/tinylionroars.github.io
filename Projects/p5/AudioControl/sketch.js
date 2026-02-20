@@ -71,7 +71,7 @@ function mousePressed(){
 	
 	rectButton(0.0,430,100,100, buttonTr);
 	
-	//rectButton(470,210,200,200, buttonAl);
+	rectButton(470,210,200,200, buttonAl);
 }
 
 function rectButton(x,y,w,h, callback){
@@ -156,18 +156,19 @@ function buttonTr(callbackData){
 	}
 }
 
-/*function buttonAl(callbackData){
+function buttonAl(callbackData){
 	for(i=0;i<50; i++){
 		for(j=0;j<50; j++){
 			//ellipse(i*100,j*100,50,50);
-			erasure.setVolume(0.5);
+			/*erasure.setVolume(0.5);
 			orlando.setVolume(0.5);
 			rapeCulture.setVolume(0.5);
 			rememberHowItHurt.setVolume(0.5);
-			transphobia.setVolume(0.5);
+			transphobia.setVolume(0.5);*/
 		}
-	}*/
+	}
 }
+
 
 
 
