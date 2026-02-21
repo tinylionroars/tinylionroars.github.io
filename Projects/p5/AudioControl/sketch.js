@@ -41,25 +41,31 @@ function draw(){
 }
 
 function mousePressed(){
-	erasure.setVolume(0.0);
-  erasure.playMode('restart');
+	//erasure.setVolume(0.0);
+  //erasure.playMode('restart');
   erasure.play();
-  
-  orlando.setVolume(0.0);
-  orlando.playMode('restart');
+  erasure.setVolume(0.0)
+
+  //orlando.setVolume(0.0);
+  //orlando.playMode('restart');
   orlando.play();
+  orlando.setVolume(0.0);
   
-  rapeCulture.setVolume(0.0);
-  rapeCulture.playMode('restart');
+  //rapeCulture.setVolume(0.0);
+  //rapeCulture.playMode('restart');
   rapeCulture.play();
+  rapeCulture.setVolume(0.0);
   
-  rememberHowItHurt.setVolume(0.0);
-  rememberHowItHurt.playMode('restart');
+  //rememberHowItHurt.setVolume(0.0);
+  //rememberHowItHurt.playMode('restart');
   rememberHowItHurt.play();
+  rememberHowItHurt.setVolume(0.0);
   
-  transphobia.setVolume(0.0);
-  transphobia.playMode('restart');
+  //transphobia.setVolume(0.0);
+  //transphobia.playMode('restart');
   transphobia.play();
+  transphobia.setVolume(0.0);
+  
 	
 	rectButton(600,075,100,100, buttonEr); //run our check for the button below
 	
